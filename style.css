@@ -1,0 +1,344 @@
+
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+      
+}
+body{
+    /*background-color: #c3fae8;*/
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(wallpaperflare.com_wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    /*background-color:#99e9f2 ;*/
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-bottom: 2px solid bisque;
+    border-left: .5px solid bisque;
+    border-right: .5px solid bisque;
+    border-top: .5px solid bisque;
+    box-shadow: 0 3px 7px 0px rgba(255, 228, 196, 0.575) , 0 6px 15px 0 rgba(255, 228, 196, 0.726) ;
+    
+}
+.logo{
+    display: inline-block;
+    /*padding-left: 35px;*/
+    margin-top: 18px;
+    font-family: "Monoton", serif;
+}
+.logo a{
+    
+    color: rgba(250, 210, 78, 0.932);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 1000;
+    
+}
+.logo a:hover ,a:active{
+    background-color: rgba(250, 210, 78, 0.151);
+    border-bottom: 2px solid rgba(250, 210, 78, 0.46);
+    border-right: 1.5px solid rgba(250, 210, 78, 0.46);
+    box-shadow: 0 1px 2px 0 rgba(250, 210, 78, 0.37);
+    transition: ease-in .1s;
+    border-radius: 5px;
+    color: azure;
+}
+.logoimg{
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    background-image: url(download.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+.list{
+    display: flex;
+    float:right;
+    margin-top: 37px;
+}
+.list ul{
+    margin-right: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.list ul a{
+    font-family: "Faculty Glyphic", sans-serif;
+    color: rgba(250, 210, 78, 0.932);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.list ul a:hover, a:active{
+    background-color: rgba(250, 210, 78, 0.151);
+    border-bottom: 2px solid rgba(250, 210, 78, 0.46);
+    border-right: 1.5px solid rgba(250, 210, 78, 0.46);
+    box-shadow: 0 1px 2px 0 rgba(250, 210, 78, 0.37);
+    transition: ease-in .1s;
+    border-radius: 5px;
+    color: azure;
+}
+.about{
+    color: white;
+    display: inline-block;
+    width: 90%;
+    margin: 5%;
+    padding:3px;
+    border: .5px solid rgba(250, 210, 78, 0.46);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0px rgba(255, 228, 196, 0.575) , 0 4px 10px 0 rgba(255, 228, 196, 0.726) ;
+    font-family: "Faculty Glyphic", sans-serif ;
+    font-size: 14px;
+}
+.about span{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+}
+.parent p{
+   color: azure;
+   font-family: "Faculty Glyphic", sans-serif;
+   font-size: 22px;
+   font-weight: bolder;
+   text-align: center;
+   padding-bottom: 15px;
+}
+.grid{
+    /*position: absolute;
+    top: 20px;
+    left: 20px;
+    display: inline-block;*/
+    text-align: right;
+    display: grid;
+    font-family:"Faculty Glyphic", sans-serif ;
+    grid-template-rows: 1.2fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(6,1fr);
+    gap: 6px 6px;
+    height: 770px;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /*margin-top: 7%;
+    margin-left: 150px;*/
+   
+}
+.grid span{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.grid a{
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.8);
+    font-size-adjust: 0.5 ;
+}
+.grid a:hover, a:active{
+    color: azure;
+}
+.luffy{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Luffy\ \(1\).jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 1/3/2/5;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+
+}
+.luffy:hover{
+    background-image:url(Luffy\ \(1\).jpg) ;
+}
+.zoro{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Zoro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 2/1/3/3;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.zoro:hover{
+    background-image:url(Zoro.jpg) ;
+}
+.nami{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Nami.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 2/3/3/5;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.nami:hover{
+    background-image:url(Nami.jpg) ;
+}
+.usopp{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Usopp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 2/5/3/7;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.usopp:hover{
+    background-image:url(Usopp.jpg) ;
+}
+.sanji{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Sanji.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 3/1/4/3;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.sanji:hover{
+    background-image:url(Sanji.jpg) ;
+}
+.chopper{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Chopper.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 3/3/4/5;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.chopper:hover{
+    background-image:url(Chopper.jpg) ;
+}
+.robin{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Robin.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 3/5/4/7;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.robin:hover{
+    background-image:url(Robin.jpg) ;
+}
+.franky{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Franky.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 4/1/5/3;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.franky:hover{
+    background-image:url(Franky.jpg) ;
+}
+.brook{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Brook.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 4/3/5/5;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.brook:hover{
+    background-image:url(Brook.jpg) ;
+}
+.jimbei{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Jinbei.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    grid-area: 4/5/5/7;
+    box-shadow: 0 1px 3px 0px rgba(255, 228, 196, 0.575) , 0 3px 6px 0 rgba(255, 228, 196, 0.726) ;
+}
+.jimbei:hover{
+    background-image:url(Jinbei.jpg) ;
+}
+.flexparent{
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+.flexparent p{
+    text-align: center;
+    color: rgba(240, 255, 255, 0.8);
+    font-family: "Faculty Glyphic", sans-serif ;
+    font-size: larger;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    
+    /*gap: 50px;*/
+}
+.flexbox a{
+    font-family: "Faculty Glyphic", sans-serif ;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgba(240, 255, 255, 0.8) ;
+    /*margin: 5px 51px;*/
+    position: absolute;
+    top: 45%;
+    left: 21%;
+    text-shadow: 2px 1px 3px #000000;
+}
+.flexbox a:hover, a:active{
+    color: white;
+}
+.anime{
+    height: 192px;
+    width: 280px;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(Anime.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 2px 4px 0px rgba(255, 228, 196, 0.575) , 0 4px 8px 0 rgba(255, 228, 196, 0.726) ;
+}
+.anime:hover{
+    background-image:url(Anime.jpg);
+}
+.manga{
+    width: 280px;
+    height: 192px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(Manga.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 2px 4px 0px rgba(255, 228, 196, 0.575) , 0 4px 8px 0 rgba(255, 228, 196, 0.726) ;
+}
+.manga:hover{
+    background-image: url(Manga.jpg);
+}
+.footer{
+    margin-top: 40px;
+    height: 80px;
+    border: .01px solid bisque;
+    border-radius: 4px;
+    box-shadow: 0 3px 10px 0px rgba(255, 228, 196, 0.575) , 0 6px 20px 0 rgba(255, 228, 196, 0.726) ;
+}
+.footer p{
+    color: rgba(250, 244, 237, 0.932);
+    text-align: center;
+    font-family:"Faculty Glyphic", sans-serif ;
+}
+.footer li {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    
+}
+.footer li ul{
+    margin-left: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgba(255, 228, 196, 0.712);
+}
+.footer a:hover ,a:active{
+    color: rgba(240, 248, 255, 0.952);
+} 
